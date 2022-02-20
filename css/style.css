@@ -1,0 +1,15 @@
+@import "variables.css";
+
+/* Main */
+
+@import "lifedesigner.css";
+@import "greeting.css";
+
+body {
+  background-color: beige;
+  font-family: var(--fontstyle);
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/lifedesigner.js" defer> </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Life Designer</title>
+   
+</head>
+<body>
+
+    <main>
+        <div class="background-main">
+            <div class = "main-header">
+                <div class = "main-name"> </div>
+                <div class = "main-time"> </div>
+            </div>
+        
+            <form class = "monthly-theme form-goal">
+                <div class = "monthly-theme__title"> Montyle Theme </div>
+                <div class = "monthly-theme__content main-content"> 
+                    <input class = "monthly-input" placeholder="Write your monthly THEME :)" type="text" />
+                </div>
+            </form>
+
+
+            <div class = "weekly-goal form-goal">
+
+                <div class = "weekly-goal__title"> Todo list </div>
+                <ul class = "weekly-goal__content">
+                    
+                
+                </ul>
+
+            </div>
+
+            <form class = "weekly-writing form-goal">
+                <input type="text" placeholder="Write your weekly goal" />        
+
+            </form>
+
+
+
+            <div class = "calendar">
+                <div class="calendar-header">
+                    <div class="year-month"></div>
+                    <div class="nav">
+                        <div class="nav-btn go-prve">&lt;</div>
+                        <div class="nav-btn go-today">Today</div>
+                        <div class="nav-btn go-next">&gl;</div>
+                    </div>
+                </div>
+                <div class="calendar-main">
+                    <div class="days">
+                        <div class="day">일</div>
+                        <div class="day">월</div>
+                        <div class="day">화</div>
+                        <div class="day">수</div>
+                        <div class="day">목</div>
+                        <div class="day">금</div>
+                        <div class="day">토</div>
+                    </div>
+                    <div class="dates"></div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-arrow-right"></i>
+        
+        <!--페이지 넘기는 화살표-->
+    </footer>
+    
+
+</body>
+</html>
