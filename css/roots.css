@@ -1,0 +1,29 @@
+:root {
+  /* Font Color */
+
+  --color-black: #000000;
+  --color-red: #feb544;
+  --color-blue: #feqqw2;
+
+  /*Font Size */
+
+  --font-large: 52px;
+  --font-medium: 30px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 12px;
+
+  /*Font Weight */
+
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+
+  /* Universal tags */
+}
+
+* {
+  box-sizing: border-box;
+}
