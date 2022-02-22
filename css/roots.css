@@ -21,11 +21,17 @@
 
   /* Size */
 
+  --border-radius: 5px;
+
   /* Universal tags */
 }
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 /* Typography */

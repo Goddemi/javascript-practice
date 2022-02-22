@@ -1,6 +1,9 @@
 @import "roots.css";
+@import "nav_bar.css";
+@import "home.css";
 
 body {
   font-family: "Quicksand", sans-serif, "Font Awesome 5 Free",
     "Font Awesome 5 Brands";
+  cursor: default;
 }
