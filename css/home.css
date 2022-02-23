@@ -1,6 +1,11 @@
+.home {
+  background: url("../imgs/home-background.jpg") center/cover no-repeat;
+  background-size: 100%;
+}
+
 .home img {
-  width: 340px;
-  height: 330px;
+  width: 330px;
+  height: 300px;
   border: 2px solid white;
   border-radius: 50%;
 }
@@ -23,8 +28,9 @@
 }
 
 .contact-btn {
-  margin-top: 60px;
+  margin: 60px;
   padding: 10px 15px;
-  background-color: white;
+  background-color: transparent;
+  border: 2px solid black;
   border-radius: 10px;
 }

@@ -12,17 +12,19 @@
 .nav_bar-name a {
   text-decoration-line: none;
   margin-left: 7px;
+  font-weight: var(--weight-semi-bold);
+  font-style: oblique;
+  color: black;
+}
+
+.nav_bar-name a:visited {
+  color: navy;
 }
 
 .logo {
   width: 35px;
   height: 35px;
   margin-left: 5px;
-}
-
-.name-name {
-  font-weight: var(--weight-semi-bold);
-  font-style: oblique;
 }
 
 .bar-menu {
