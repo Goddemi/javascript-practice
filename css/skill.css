@@ -1,0 +1,57 @@
+.skills {
+  background-color: lavender;
+  height: 1000px;
+}
+
+.header_explain {
+  text-align: center;
+}
+
+.skillset {
+  width: 85%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillset_left {
+  width: 60%;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillset_title {
+  margin: 40px 0px;
+}
+
+.skills_description {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.skill_value {
+  width: 150%;
+}
+
+.skillset_right {
+  width: 40%;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skillset_tools {
+  background-color: beige;
+  height: 65%;
+}
+
+.skillset_etc {
+  height: 35%;
+}
