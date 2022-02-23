@@ -14,11 +14,12 @@
   margin-left: 7px;
   font-weight: var(--weight-semi-bold);
   font-style: oblique;
-  color: black;
+  font-size: var(--font-regular);
+  color: var(--color-white);
 }
 
 .nav_bar-name a:visited {
-  color: navy;
+  color: var(--color-white);
 }
 
 .logo {
@@ -33,15 +34,17 @@
 }
 
 .nav_bar-element {
-  margin-left: 35px;
+  margin-left: 25px;
   cursor: pointer;
-  padding: 4px 7px;
+  padding: 5px 10px;
+  color: var(--color-white);
 }
 
 .nav_bar-element:hover {
-  box-shadow: 0 0 2pt 1pt white;
+  border-radius: 10px;
+  box-shadow: 0 0 2pt 1pt var(--color-white);
 }
 
 .nav_bar-element:last-child {
-  margin-right: 30px;
+  margin-right: 40px;
 }

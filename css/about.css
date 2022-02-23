@@ -1,0 +1,52 @@
+.header_title-about {
+  margin: 70px;
+}
+
+.about_major {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.about_major-content {
+  margin: 40px 100px;
+}
+.major_icon-circle {
+  width: 280px;
+  height: 350px;
+  border: 2px solid dodgerblue;
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: dodgerblue;
+  font-size: 80px;
+}
+
+.major_icon-circle i {
+  transition: all 0.2s ease-in-out;
+}
+
+.major_icon-circle i:hover {
+  transform: scale(1.2);
+}
+
+.major_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.career_content-icon img {
+  width: 80px;
+  margin-right: 30px;
+}
+
+.career_content {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 80px;
+}

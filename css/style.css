@@ -1,6 +1,7 @@
 @import "roots.css";
 @import "nav_bar.css";
 @import "home.css";
+@import "about.css";
 
 body {
   font-family: "Quicksand", sans-serif, "Font Awesome 5 Free",

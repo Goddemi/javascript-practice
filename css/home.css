@@ -6,7 +6,7 @@
 .home img {
   width: 330px;
   height: 300px;
-  border: 2px solid white;
+  border: 2px solid var(--color-white);
   border-radius: 50%;
 }
 
@@ -23,14 +23,25 @@
   align-items: center;
 }
 
-.header_title {
+.header_title,
+.header_description {
   text-align: center;
+  color: var(--color-black);
+}
+
+.header_title-white {
+  color: var(--color-white);
+}
+
+.header_description-white {
+  color: var(--color-white);
 }
 
 .contact-btn {
   margin: 60px;
   padding: 10px 15px;
   background-color: transparent;
-  border: 2px solid black;
-  border-radius: 10px;
+  box-shadow: 0 0 3px 2px var(--color-white);
+  border-radius: 15px;
+  color: var(--color-white);
 }

@@ -1,13 +1,14 @@
 :root {
   /* Font Color */
 
-  --color-black: #000000;
+  --color-black: #212121;
   --color-red: #feb544;
   --color-blue: #feqqw2;
+  --color-white: aliceblue;
 
   /*Font Size */
 
-  --font-large: 52px;
+  --font-large: 56px;
   --font-medium: 30px;
   --font-regular: 18px;
   --font-small: 16px;
