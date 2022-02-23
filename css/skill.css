@@ -9,7 +9,7 @@
 
 .skillset {
   width: 85%;
-  height: 400px;
+  height: 420px;
   background-color: rgba(0, 0, 0, 0.1);
   margin: auto;
   margin-top: 50px;
@@ -26,7 +26,7 @@
 }
 
 .skillset_title {
-  margin: 40px 0px;
+  margin: 20px 0px;
 }
 
 .skills_description {
@@ -35,8 +35,21 @@
   width: 80%;
 }
 
+.skill_bar {
+  width: 80%;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
 .skill_value {
-  width: 150%;
+  height: 5px;
+  background-color: burlywood;
+  border-radius: 5px;
+  margin: 10px 0px;
+  position: relative;
+  top: -10px;
 }
 
 .skillset_right {
@@ -45,6 +58,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.skill_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars {
+  margin-right: 50px;
+}
+.skill_list i {
+  color: darkkhaki;
 }
 
 .skillset_tools {
