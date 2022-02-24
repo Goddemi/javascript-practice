@@ -3,8 +3,9 @@
 
   --color-black: #212121;
   --color-red: #feb544;
-  --color-blue: #feqqw2;
+  --color-blue: dodgerblue;
   --color-white: aliceblue;
+  --color-gray: rgba(0, 0, 0, 0.1);
 
   /*Font Size */
 

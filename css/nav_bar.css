@@ -1,7 +1,7 @@
 .nav_bar {
   display: flex;
   justify-content: space-between;
-  background-color: skyblue;
+  background-color: var(--color-blue);
 }
 
 .nav_bar-name {

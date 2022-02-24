@@ -10,12 +10,12 @@
 .major_icon-circle {
   width: 280px;
   height: 350px;
-  border: 2px solid dodgerblue;
+  border: 2px solid var(--color-blue);
   border-radius: 8%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: dodgerblue;
+  color: var(--color-blue);
   font-size: 80px;
 }
 

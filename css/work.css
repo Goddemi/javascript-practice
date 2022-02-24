@@ -1,0 +1,73 @@
+.work_categories {
+  display: flex;
+  justify-content: center;
+}
+
+.work_menu {
+  margin: 0 2px 60px 0;
+  padding: 14px 40px;
+  border: 2px solid var(--color-gray);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.work_menu:hover {
+  box-shadow: 0 0 4px 2px var(--color-blue);
+}
+
+.work_menu:hover .work_count {
+  top: -0.7px;
+  opacity: 0.8;
+}
+
+.work_menu_title {
+  font-size: 17px;
+  color: var(--color-black);
+}
+
+.work_count {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  line-height: 20px;
+  position: relative;
+  top: -10px;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.work_projects-list {
+  display: flex;
+  justify-content: center;
+}
+
+.work_projects-element {
+  margin: 2px;
+  background-color: var(--color-gray);
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.work_projects-element img {
+  width: 85%;
+  height: 85%;
+  border-radius: 5px;
+}
+
+.project_description {
+  position: absolute;
+  top: 200px;
+  color: var(--color-blue);
+  font-weight: var(--weight-semi-bold);
+  font-style: oblique;
+}
