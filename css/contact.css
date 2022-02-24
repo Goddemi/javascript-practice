@@ -1,0 +1,25 @@
+.contact {
+  background-color: var(--color-backblue);
+  opacity: 0.95;
+}
+
+.icons {
+  margin-top: 30px;
+}
+.icons a:visited {
+  text-decoration: none;
+}
+.icons a i {
+  margin: 20px 20px;
+  font-size: 50px;
+  color: white;
+  font-style: normal;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited,
+a:link {
+  text-decoration: none;
+}

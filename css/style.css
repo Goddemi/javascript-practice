@@ -4,6 +4,8 @@
 @import "about.css";
 @import "skill.css";
 @import "work.css";
+@import "testimonial.css";
+@import "contact.css";
 
 body {
   font-family: "Quicksand", sans-serif, "Font Awesome 5 Free",

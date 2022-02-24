@@ -20,6 +20,7 @@
 }
 
 .major_icon-circle i {
+  font-style: normal;
   transition: all 0.2s ease-in-out;
 }
 
