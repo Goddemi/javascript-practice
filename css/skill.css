@@ -1,6 +1,6 @@
 .skills {
   background-color: lavender;
-  height: 1000px;
+  padding: 50px 0;
 }
 
 .header_explain {
@@ -9,7 +9,6 @@
 
 .skillset {
   width: 85%;
-  height: 420px;
   background-color: rgba(0, 0, 0, 0.1);
   margin: auto;
   margin-top: 50px;

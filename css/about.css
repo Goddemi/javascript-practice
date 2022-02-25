@@ -1,12 +1,9 @@
 .about_major {
-  margin: 50px;
+  margin: 80px 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.about_major-content {
-  margin: 40px 100px;
-}
 .major_icon-circle {
   width: 280px;
   height: 350px;

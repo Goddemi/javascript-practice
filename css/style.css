@@ -12,3 +12,43 @@ body {
     "Font Awesome 5 Brands";
   cursor: default;
 }
+
+/* media query */
+
+@media screen and (max-width: 800px) {
+  .nav_bar {
+    flex-direction: column;
+  }
+
+  .nav_bar-toggle {
+    display: block;
+  }
+
+  .bar-menu {
+    margin: auto;
+    flex-direction: column;
+    display: none;
+  }
+
+  .about_major {
+    flex-direction: column;
+    align-items: center;
+  }
+  .major_info {
+    margin-bottom: 30px;
+  }
+
+  .skillset {
+    flex-direction: column;
+  }
+
+  .skillset_left,
+  .skillset_right,
+  .skillset_etc {
+    width: 100%;
+  }
+
+  .work_projects-element {
+    flex-grow: 1;
+  }
+}

@@ -4,6 +4,11 @@
   padding-bottom: 70px;
 }
 
+.section_container {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .recommendation {
   display: flex;
   margin: 50px 20px;

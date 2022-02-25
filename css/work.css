@@ -4,12 +4,15 @@
 }
 
 .work_menu {
+  width: 140px;
+  height: 60px;
   margin: 0 2px 60px 0;
-  padding: 14px 40px;
+
   border: 2px solid var(--color-gray);
   border-radius: 5px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .work_menu:hover {
@@ -43,6 +46,7 @@
 .work_projects-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .work_projects-element {
@@ -59,8 +63,8 @@
 }
 
 .work_projects-element img {
-  width: 85%;
-  height: 85%;
+  max-width: 85%;
+  max-height: 85%;
   border-radius: 5px;
 }
 
