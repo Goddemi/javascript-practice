@@ -1,9 +1,17 @@
 .nav_bar {
+  position: fixed;
+
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-backblue);
+  background-color: transparent;
   opacity: 0.95;
   padding: 0 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.nav_bar-dark {
+  background-color: var(--color-backblue);
 }
 
 .nav_bar-name {
@@ -30,14 +38,11 @@
   margin-left: 5px;
 }
 
-.nav_bar-menu {
-  display: flex;
-  align-items: center;
-}
-
 .bar-menu {
   list-style-type: none;
   display: flex;
+  position: relative;
+  right: 30px;
 }
 
 .nav_bar-element {
@@ -55,8 +60,8 @@
 
 .nav_bar-toggle {
   position: absolute;
-  top: 30px;
-  right: 15px;
+  top: 10px;
+  right: 35px;
   font-size: 27px;
   color: white;
   margin-right: 20px;
