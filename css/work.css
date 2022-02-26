@@ -66,6 +66,7 @@
   max-width: 85%;
   max-height: 85%;
   border-radius: 5px;
+  z-index: 3;
 }
 
 .project_description {
@@ -74,4 +75,5 @@
   color: var(--color-blue);
   font-weight: var(--weight-semi-bold);
   font-style: oblique;
+  z-index: 4;
 }
