@@ -71,3 +71,23 @@ document.addEventListener("scroll", () => {
     homeOpaityElement.style.opacity = opacityValue;
 })
 
+
+
+// arrow up
+
+const arrowUp = document.querySelector(".arrow__up");
+
+arrowUp.addEventListener("click", () => {
+    const homeUp = document.querySelector(".home");
+    homeUp.scrollIntoView({behavior:"smooth"});
+})
+
+
+document.addEventListener("scroll", ()=> {
+  if (window.scrollY > homeScreenHeight/2) {
+      arrowUp.classList.remove("hidden")
+  } else {
+      arrowUp.classList.add("hidden")
+  }
+
+})
