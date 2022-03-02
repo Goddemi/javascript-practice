@@ -69,7 +69,13 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.hidden {
+.opacity-zero {
   pointer-events: none;
   opacity: 0;
+}
+
+/* works and */
+
+.hidden {
+  display: none;
 }

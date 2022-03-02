@@ -91,3 +91,35 @@ document.addEventListener("scroll", ()=> {
   }
 
 })
+
+
+
+
+
+// projects //
+const workCategories = document.querySelector(".work_categories");
+const workProjectList = document.querySelector(".work_projects-list");
+
+
+const projects = document.querySelectorAll(".work_projects-element");
+
+
+workCategories.addEventListener("click", (event) => {
+    const targetMenu = event.target;
+    const targetSelect = targetMenu.dataset.type || targetMenu.parentElement.dataset.type;
+    
+    workProjectList.classList.add("anim-out");
+    setTimeout(() => {
+    
+    projects.forEach((project) => {
+    if (targetSelect === "*" || targetSelect === project.dataset.element) {
+        project.classList.remove("hidden");
+    } else {
+        project.classList.add("hidden");
+    }
+    });
+
+    workProjectList.classList.remove("anim-out")}, 300);
+
+
+})
