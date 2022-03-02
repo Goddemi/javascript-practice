@@ -5,21 +5,28 @@
 
 const navBar = document.querySelector(".nav_bar");
 const navBarHeight = navBar.getBoundingClientRect().height;
+const navElement = document.querySelector(".bar-menu")
+
 
 document.addEventListener("scroll", () => {
 if (window.scrollY > navBarHeight) {
-    navBar.classList.add("nav_bar-dark");
+        navBar.classList.add("nav_bar-dark")
 } else {
     navBar.classList.remove("nav_bar-dark")
+    
 }
 })
 
 
 
 
+
+
+
+
+
 // nav bar - menu click and moving //
 
-const navElement = document.querySelector(".bar-menu");
 
 navElement.addEventListener("click", (event) => {
     
@@ -34,6 +41,23 @@ navElement.addEventListener("click", (event) => {
 }
 
 })
+
+
+
+//// nav bar menu down !
+
+
+const navToggle = document.querySelector(".nav_bar-toggle");
+
+navToggle.addEventListener("click", () => {
+    navElement.classList.toggle("open");
+    
+    navBar.classList.toggle("open");
+
+})
+
+
+
 
 
 
@@ -85,9 +109,9 @@ arrowUp.addEventListener("click", () => {
 
 document.addEventListener("scroll", ()=> {
   if (window.scrollY > homeScreenHeight/2) {
-      arrowUp.classList.remove("hidden")
+      arrowUp.classList.remove("opacity-zero");
   } else {
-      arrowUp.classList.add("hidden")
+      arrowUp.classList.add("opacity-zero");
   }
 
 })
@@ -97,6 +121,9 @@ document.addEventListener("scroll", ()=> {
 
 
 // projects //
+
+
+
 const workCategories = document.querySelector(".work_categories");
 const workProjectList = document.querySelector(".work_projects-list");
 
@@ -108,7 +135,16 @@ workCategories.addEventListener("click", (event) => {
     const targetMenu = event.target;
     const targetSelect = targetMenu.dataset.type || targetMenu.parentElement.dataset.type;
     
-    workProjectList.classList.add("anim-out");
+    const selectedOne = document.querySelector(".work_menu.work_select")
+    selectedOne.classList.remove("work_select");
+
+    const menuSelected = event.target.nodeName === 'BUTTON' ? event.target : 
+                                            event.target.parentNode;
+
+    menuSelected.classList.add("work_select");
+
+
+     workProjectList.classList.add("anim-out");
     setTimeout(() => {
     
     projects.forEach((project) => {
@@ -118,8 +154,9 @@ workCategories.addEventListener("click", (event) => {
         project.classList.add("hidden");
     }
     });
+    
 
-    workProjectList.classList.remove("anim-out")}, 300);
-
+    workProjectList.classList.remove("anim-out")}, 350);
 
 })
+
