@@ -9,7 +9,6 @@
 
 .skillset {
   width: 85%;
-  background-color: rgba(0, 0, 0, 0.1);
   margin: auto;
   margin-top: 50px;
   display: flex;
@@ -40,6 +39,11 @@
   background-color: white;
   border-radius: 5px;
   margin: 10px 0px;
+  margin-bottom: 30px;
+}
+
+.skill_bar:last-child {
+  margin-bottom: 40px;
 }
 
 .skill_value {
@@ -79,4 +83,9 @@
 
 .skillset_etc {
   height: 35%;
+}
+
+.skillset_content,
+.etc_content {
+  margin-left: 20px;
 }

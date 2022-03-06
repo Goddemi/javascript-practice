@@ -20,7 +20,7 @@
 }
 
 .work_menu.work_select {
-  background-color: aqua;
+  box-shadow: 0 0 4px 2px var(--color-blue);
 }
 
 .work_menu:hover {
@@ -35,6 +35,7 @@
 .work_menu_title {
   font-size: 17px;
   color: var(--color-black);
+  margin-left: 10px;
 }
 
 .work_count {

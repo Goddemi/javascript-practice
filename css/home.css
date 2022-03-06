@@ -45,3 +45,7 @@
   border-radius: 15px;
   color: var(--color-white);
 }
+
+.contact-btn:hover {
+  background-color: skyblue;
+}
