@@ -58,6 +58,11 @@
   box-shadow: 0 0 2pt 1pt var(--color-white);
 }
 
+.active {
+  border-radius: 10px;
+  box-shadow: 0 0 2pt 1pt var(--color-white);
+}
+
 .nav_bar-scrolling {
   border-radius: 10px;
   box-shadow: 0 0 2pt 1pt var(--color-white);

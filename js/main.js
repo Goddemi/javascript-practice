@@ -73,6 +73,18 @@ contactBtn.addEventListener("click",  () => {
 
 /// scrolling - nav bar menu effect
 
+//1. 메뉴들을 불러온다. 
+//2. 그 메뉴들의 이름과 실제 메뉴들을 연결시키는 것. 
+//3. 옵절빙을 한다. 들어와 있으면 메뉴를 밝게 한다. 
+
+
+
+
+
+
+
+
+// 아래 방법처럼 해서 실행할 수 없나?
 
 
 
