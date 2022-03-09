@@ -1,3 +1,4 @@
+@import "basic.css";
 @import "roots.css";
 @import "nav_bar.css";
 @import "home.css";
@@ -11,10 +12,6 @@ body {
   font-family: "Quicksand", sans-serif, "Font Awesome 5 Free",
     "Font Awesome 5 Brands";
   cursor: default;
-}
-
-ul {
-  padding: 0;
 }
 
 /* arrow up btn */
@@ -99,5 +96,12 @@ ul {
   .work_menu {
     width: 300px;
     height: 50px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .work_projects {
+    max-width: 83%;
+    margin: auto;
   }
 }

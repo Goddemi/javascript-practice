@@ -1,6 +1,10 @@
 .skills {
   background-color: lavender;
-  padding: 50px 0;
+  padding: 50px 0px 70px 0;
+}
+
+.skills .header {
+  padding: 20px 0;
 }
 
 .header_explain {
@@ -8,7 +12,7 @@
 }
 
 .skillset {
-  width: 85%;
+  width: 80%;
   margin: auto;
   margin-top: 50px;
   display: flex;
@@ -30,11 +34,11 @@
 .skills_description {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 85%;
 }
 
 .skill_bar {
-  width: 80%;
+  width: 85%;
   height: 5px;
   background-color: white;
   border-radius: 5px;
@@ -60,32 +64,24 @@
   background-color: azure;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .skill_list {
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.stars {
-  margin-right: 50px;
-}
 .skill_list i {
   color: darkkhaki;
 }
 
 .skillset_tools {
   background-color: beige;
-  height: 65%;
+  height: 60%;
 }
 
 .skillset_etc {
-  height: 35%;
-}
-
-.skillset_content,
-.etc_content {
-  margin-left: 20px;
+  height: 40%;
 }
