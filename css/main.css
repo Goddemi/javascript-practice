@@ -1,0 +1,31 @@
+
+
+.profile {
+
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img{
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+
+.likes_box {
+    display: flex;
+    justify-content: center;
+}
+
+.likes_name {
+    width: 10%;
+    height: var(--box-height);
+    border: 1px solid black;
+    text-align: center;
+    line-height: var(--box-height);
+}
