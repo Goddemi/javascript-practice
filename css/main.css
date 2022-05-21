@@ -27,6 +27,11 @@ main {
   margin-top: 80px;
 }
 
+.greeting span {
+  display: flex;
+  margin-top: 5px;
+}
+
 .likes {
   height: 80%;
   margin: auto;
@@ -67,6 +72,11 @@ main {
 
 .likes_contents span {
   font-size: 80px;
+}
+
+.likes_contents:hover {
+  background-color: grey;
+  opacity: 0.1;
 }
 
 .contact {
