@@ -5,6 +5,10 @@ main {
   height: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 .profile {
   width: 100%;
 
@@ -70,13 +74,33 @@ main {
   align-items: center;
 }
 
-.likes_contents span {
+.likes_contents i {
   font-size: 80px;
+  transition: all 0.1s ease-in-out;
 }
 
-.likes_contents:hover {
-  background-color: grey;
+.content_title {
+  position: absolute;
+
+  width: 20%;
+  height: 40%;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.likes_contents:hover i {
   opacity: 0.1;
+}
+
+.likes_contents:hover .content_title {
+  opacity: 0.8;
 }
 
 .contact {

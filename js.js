@@ -15,4 +15,28 @@ navBar.addEventListener("click", (e) => {
   scrollingTo.scrollIntoView({ behavior: "smooth" });
 });
 
-// Likes contents
+//contents
+
+// const likesBox = document.querySelector(".likes_box");
+// const likeContents = document.querySelectorAll(".likes_contents");
+// const newlikeContents = [...likeContents];
+
+// let menuName;
+
+// function contentClassify(event) {
+//   if (event.target.className !== "likes_box") {
+//     menuName = event.target.innerHTML;
+//     const newnew = newlikeContents.filter((content) => {
+//       content.dataset.group === menuName;
+//     });
+//     newnew.forEach((content) => {
+//       if (content.classList.contains("hidden")) {
+//         content.classList.remove("hidden");
+//       }
+//     });
+//   }
+// }
+
+// likesBox.addEventListener("click", contentClassify);
+
+// dataset.group;
