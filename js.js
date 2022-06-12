@@ -28,16 +28,27 @@ const arrayLikeContents = [...likeContents];
 
 function contentDeleting(groupName) {
   arrayLikeContents.forEach((content) => {
+    content.classList.add("disappear");
     if (content.dataset.group !== groupName) {
-      content.classList.add("hidden");
+      setTimeout(() => {
+        content.classList.add("hidden");
+      }, 500);
     } else {
-      content.classList.remove("hidden");
+      setTimeout(() => {
+        content.classList.remove("hidden");
+      }, 500);
     }
+    setTimeout(() => {
+      content.classList.remove("disappear");
+    }, 500);
   });
 }
 
+//왜 됐다 안됐따함..?
+
+function disappear(content) {}
+
 function contentChanging(event) {
-  console.dir(event.target);
   let groupName;
   if (event.target.className === "likes_name") {
     groupName = event.target.innerHTML;

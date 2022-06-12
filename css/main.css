@@ -93,6 +93,15 @@ main {
 /* hidden 의 위에 따라서, 언제 선언 했냐에 따라서 적용이 되고 안되고 했다.
 위에서 display none을 했을 경우 적용이 안되었었다.  */
 
+.likes_contents {
+  transition: all 0.5s ease-in-out;
+}
+
+.disappear {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
 .hidden {
   display: none;
 }
