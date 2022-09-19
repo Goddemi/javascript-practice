@@ -1,0 +1,45 @@
+.about_major {
+  margin: 50px 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.major_icon-circle {
+  width: 280px;
+  height: 350px;
+  border: 2px solid var(--color-blue);
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-blue);
+  font-size: 80px;
+}
+
+.major_icon-circle i {
+  font-style: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.major_icon-circle i:hover {
+  transform: scale(1.2);
+}
+
+.major_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.career_content-icon img {
+  width: 80px;
+  margin-right: 30px;
+}
+
+.career_content {
+  display: flex;
+  align-items: center;
+  margin: 80px;
+}

@@ -1,0 +1,80 @@
+:root {
+  /* Font Color */
+
+  --color-black: #212121;
+  --color-red: #feb544;
+  --color-blue: dodgerblue;
+  --color-white: aliceblue;
+  --color-gray: rgba(0, 0, 0, 0.1);
+  --color-backblue: #127bb3;
+
+  /*Font Size */
+
+  --font-large: 56px;
+  --font-medium: 30px;
+  --font-regular: 20px;
+  --font-small: 16px;
+  --font-micro: 12px;
+
+  /*Font Weight */
+
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+
+  --border-radius: 5px;
+
+  /* Universal tags */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+/* Typography */
+
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  margin: 16px 0;
+}
+
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--font-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--font-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}

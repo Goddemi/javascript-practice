@@ -1,0 +1,79 @@
+.nav_bar {
+  position: fixed;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  opacity: 0.95;
+  padding: 0 5px;
+}
+
+.nav_bar-background {
+  background-color: var(--color-backblue);
+  z-index: 5;
+}
+
+.nav_bar-name {
+  display: flex;
+  align-items: center;
+}
+
+.nav_bar-name a {
+  text-decoration-line: none;
+  margin: 16px 0 16px 7px;
+  font-weight: var(--weight-semi-bold);
+  font-style: oblique;
+  font-size: var(--font-regular);
+  color: var(--color-white);
+}
+
+.nav_bar-name a:visited {
+  color: var(--color-white);
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  margin-left: 5px;
+}
+
+.bar-menu {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  transition: all 200ms ease-out;
+}
+
+.nav_bar-element {
+  margin: 0 12px;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.nav_bar-element:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 2pt 1pt var(--color-white);
+}
+
+.active {
+  border-radius: 10px;
+  box-shadow: 0 0 2pt 1pt var(--color-white);
+}
+
+.nav_bar-scrolling {
+  border-radius: 10px;
+  box-shadow: 0 0 2pt 1pt var(--color-white);
+}
+
+.nav_bar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 27px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
