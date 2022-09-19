@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self-Introduction</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7b9b875084.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav_bar">
+        <div class="bar_menu">Home</div>
+        <div class="bar_menu">Likes</div>
+        <div class="bar_menu">Contact</div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="profile section" data-section="Home">
+        <img src="imgs/profile.jpeg" alt="profile img" />
+        <div class="greeting">
+          <span>Nice to meet you !</span> <br />
+          <span>I'm Kangchul Lee</span>
+        </div>
+      </div>
+      <div class="likes section" data-section="Likes">
+        <div class="likes_box">
+          <div class="likes_name">Coding</div>
+
+          <div class="likes_name">Music</div>
+
+          <div class="likes_name">Traveling</div>
+        </div>
+
+        <div class="favorites">
+          <div class="likes_contents" data-group="Coding">
+            <i class="fa-brands fa-js-square"></i>
+            <div class="content_title">Javascript</div>
+          </div>
+
+          <div class="likes_contents" data-group="Coding">
+            <i class="fa-solid fa-window-restore"></i>
+            <div class="content_title">Frontend Developer</div>
+          </div>
+          <div class="likes_contents" data-group="Coding">
+            <i class="fa-brands fa-react">&nbsp/&nbsp</i>
+            <i class="fa-solid fa-t"> </i>
+            <div class="content_title">React & Typescript</div>
+          </div>
+
+          <div class="likes_contents hidden" data-group="Music">
+            <i class="fa-brands fa-js-square"></i>
+            <div class="content_title">Hiphop R&B</div>
+          </div>
+
+          <div class="likes_contents hidden" data-group="Music">
+            <i class="fa-solid fa-window-restore"></i>
+            <div class="content_title">Making Music</div>
+          </div>
+          <div class="likes_contents hidden" data-group="Music">
+            <i class="fa-brands fa-react">&nbsp/&nbsp</i>
+            <i class="fa-solid fa-t"> </i>
+            <div class="content_title">Album</div>
+          </div>
+
+          <div class="likes_contents hidden" data-group="Traveling">
+            <i class="fa-brands fa-js-square"></i>
+            <div class="content_title">Backpacking</div>
+          </div>
+
+          <div class="likes_contents hidden" data-group="Traveling">
+            <i class="fa-solid fa-window-restore"></i>
+            <div class="content_title">NewZealand</div>
+          </div>
+          <div class="likes_contents hidden" data-group="Traveling">
+            <i class="fa-brands fa-react">&nbsp/&nbsp</i>
+            <i class="fa-solid fa-t"> </i>
+            <div class="content_title">라라</div>
+          </div>
+        </div>
+
+        <!-- <div class="favorites">Yerin Baek Frank Ocean</div>
+        <div class="favorites">Mac Miller</div>
+
+        <div class="favorites">New Zeland</div>
+        <div class="favorites">Swiss</div>
+        <div class="favorites">Japan</div>
+
+        <div class="favorites">Javascript</div>
+        <div class="favorites">React</div>
+        <div class="favorites">Typescript</div> -->
+      </div>
+
+      <div class="contact section" data-section="Contact">
+        <a href="mailto:goddemi0124@gmail.com" target="_blank"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/Goddemi" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://goddemi.tistory.com/" target="_blank"
+          ><i class="fa-solid fa-house-user"></i
+        ></a>
+      </div>
+    </main>
+  </body>
+</html>
